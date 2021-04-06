@@ -8,7 +8,6 @@ function QuestionItem(props) {
     let [counter, setCounter] = useState(0)
 
     function change(e) {
-        // setCheck(check=true)
         if (check) {
             count(+e.target.value)
             count(-1 * counter)

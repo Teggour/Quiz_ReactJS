@@ -4,7 +4,6 @@ import QuestionItem from './QuestionItem'
 
 function QuestionsList(props) {
     let [counter, setCounter] = useState(0)
-    // let [result, setResult] = useState('')
     let result = ''
 
     function count(score) {
